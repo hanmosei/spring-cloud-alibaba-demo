@@ -1,0 +1,13 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: alibaba-nacos-config-client
+  profiles:
+    active: test
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        group: TEST_GROUP
+        namespace: 065995ae-0ceb-4536-8076-4efc49d6bfe6
